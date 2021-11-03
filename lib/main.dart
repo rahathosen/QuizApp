@@ -6,6 +6,7 @@ void main() {
   runApp(MyApp());
 }
 
+//test
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -16,6 +17,7 @@ class MyApp extends StatefulWidget {
 class MyAppState extends State {
   int questionIndex = 0;
   int totalScore = 0;
+  // this is test
   var questions = [
     {
       'question': 'What\'s Dart? \';}',
